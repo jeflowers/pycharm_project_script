@@ -1,4 +1,4 @@
-# Multi-format Configuration Python Script for Project Structure Generation
+# Pycharm Project Structure Generator
 
 ## Overview
 
@@ -26,18 +26,21 @@ This Python script generates a project directory structure based on a configurat
    pip install PyYAML
    ```
 
-3. Download the `create_structure.py` script to your local machine.
+3. Get the Pycharm Project Structure Generator.
+   git clone https://github.com/jeflowers/pycharm_project_script.git
 
 ## Usage
 
 Run the script from the command line with the following syntax:
 
 ```
-python create_structure.py path/to/config_file [--output path/to/output/directory]
+python main.py path/to/config_file [--output path/to/output/directory]
 ```
 
 - `path/to/config_file`: The path to your configuration file (YAML, JSON, or CSV format)
 - `--output`: (Optional) The directory where the project structure will be created. If not specified, the current directory will be used.
+### Example:
+python main.py config_files/config.yaml --output .
 
 ## Configuration File Formats
 
