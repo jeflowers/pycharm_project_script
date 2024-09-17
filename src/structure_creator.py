@@ -23,7 +23,7 @@ class StructureCreator:
         """
         self.directory_creator = directory_creator
 
-    def create_structure(self, base_path: str, structure: Dict[str, Union[Dict, List, None]]):
+    def create_structure(self, base_path: str, structure: Dict[str, Union[Dict, list, None]]):
         """
         Recursively create a directory structure based on the provided configuration.
 
