@@ -1,0 +1,3 @@
+project_name,vipea_project
+structure,"{'src': ['application', 'interfaces', 'data'], 'tests': ['unit', 'integration']}"
+root_files,"['README.md', 'main.py']"
