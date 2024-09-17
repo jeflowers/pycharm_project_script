@@ -42,6 +42,9 @@ python main.py path/to/config_file [--output path/to/output/directory]
 ### Example:
 python main.py config_files/config.yaml --output .
 
+## Documents
+### Note: See [Configuration File Creation Guide](https://github.com/jeflowers/pycharm_project_script/blob/cbf6ec1ca3db16393a73208167f2237303e6964a/docs/ConfigurationFileCreationGuide.md) in the docs directory for additional details.
+
 ## Configuration File Formats
 
 The script supports the following configuration file formats:
